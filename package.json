@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --env-file=.env --loader=ts-node/esm --watch src/index.ts",
+    "dev": "node --env-file=.env --loader ts-node/esm --watch src/index.ts",
     "build": "npx tsc",
     "start": "node dist/index.js",
     "db:generate": "npx drizzle-kit generate",
